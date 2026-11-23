@@ -49,9 +49,13 @@ The page suits a portfolio because it has a free-trial registration, a login, dr
 • What happens if a user's session expires mid-form submission?
 
 
-# Step 2: Test Scenario 
+# Step 2: Test Scenario by Feature & Risk  
 
-I created a file for this project: [View my file] (Test Scenario for iBrokrage.docx) 
+I created a file for that part: [View my file] (Test Scenario for iBrokrage.docx) 
+
+# Step 3: Test Cases 
+
+I created a file for that part: [View my file] (Test Scenario for iBrokrage.docx) 
 
 
 
