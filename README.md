@@ -53,9 +53,47 @@ The page suits a portfolio because it has a free-trial registration, a login, dr
 
 I created a file for that part: [View my file] (Test Scenario for iBrokrage.docx) 
 
-# Step 3: Test Cases 
+# Step 3: TestCases 
 
-I created a file for that part: [View my file] (Test Scenario for iBrokrage.docx) 
+I created a file for that part: [View my file] (TESTCASES FOR LOGIN ACCOUNT AND FREE TRIAL.xlsx) 
+
+# Step 4: Run the Tests 
+
+Execution summary: I ran the manual test cases on the live iBrokerage 360 website on [11/24/2026], using Windows 11 with Chrome and Edge. Testing covered the Login page, the Register flow (including the Setup Your Password rules), Forget Password, header navigation, the 360 Agent CRM page (Free Trial and Account Login buttons, pricing and the promo video), contact details, footer and social links, content, responsive layout, keyboard access, load time and HTTPS. Of [40] test cases, [35] passed, [5] failed and [0] were deferred. I found 5 defects, [3] Major and [2] Minor, and reported each one with steps to reproduce, expected and actual results, severity, priority. Each failed test case is linked to its bug ID.
+
+# Step 4: Bug Report 
+
+# Bug Report 1 
+
+| Field | Content |
+| --- | --- |
+|Bug ID |	BUG-01 |
+| Title | Labels and controls are as per requirements in "Your Free Trial" page      |
+| Environment |	Windows 11, Chrome [157.0.8103.80], Edge [158.0.4370.33] |
+| URL |	[https://ibrokerage-3609.ibrokerage.app/agent/register] |
+|Steps |	1.  Open the 360 Agent CRM page 2. clcik on the "Your Free Trial" 3. Check all field labels, placeholders and buttons |
+| Expected result |	All labels and controls match the requirements and have no spelling mistakes |
+| Actual result |	1. while clicking on the Search Brokerage Name Not listed? Icon shifts upward and breaks alignment   2.  The promo code field where users enter an alphanumeric discount code does not appear on the screen. The section is completely blank, and no text box or button is visible in 100% browser zoom. |
+|Severity |	Major  |
+|Priority  |	High  |
+|Impact |	The page looks broken and less professional, so a new user signing up for the free trial may trust the product less. The user can still register, so it doesn't block anything. |
+|Evidence 1 |	https://github.com/user-attachments/assets/452463fe-c78c-4b6a-bf80-971b4d5fe804 |
+|Linked test case |	TC-002 |
 
 
+# Bug Report 2 
 
+| Field | Content |
+| --- | --- |
+|Bug ID |	BUG-02 |
+| Title | Verify UI layout, container alignment, and text rendering on the Setup Password screen at 100% browser zoom in Your free trial " page → password setup page . | |
+| Environment |	Windows 11, Chrome [157.0.8103.80], Edge [158.0.4370.33] |
+| URL |	[https://ibrokerage-3609.ibrokerage.app/agent/register] |
+|Steps |	1.  Open the 360 Agent CRM page 2. clcik on the "Your Free Trial" 3. Check all field labels, placeholders and buttons |
+| Expected result |	All labels and controls match the requirements and have no spelling mistakes |
+| Actual result |	1. while clicking on the Search Brokerage Name Not listed? Icon shifts upward and breaks alignment   2.  The promo code field where users enter an alphanumeric discount code does not appear on the screen. The section is completely blank, and no text box or button is visible in 100% browser zoom. |
+|Severity |	Major  |
+|Priority  |	High  |
+|Impact |	The page looks broken and less professional, so a new user signing up for the free trial may trust the product less. The user can still register, so it doesn't block anything. |
+|Evidence |	https://github.com/user-attachments/assets/452463fe-c78c-4b6a-bf80-971b4d5fe804 |
+|Linked test case |	TC-002 |
