@@ -4,6 +4,9 @@ iBrokerage 360 is a Canadian-owned, all-in-one, AI-driven real estate software p
 daily operations from a single portal.  Rather than forcing real estate professionals to juggle multiple disconnected tools, the platform centralizes client relationships,
 marketing, transactions, and back-office accounting.
 
+<img width="350" height="70" alt="image" src="https://github.com/user-attachments/assets/d93b393e-aa11-4213-ae48-c8aa2c4b15a6" />
+
+
 # Project Guide
 This one-day project produces a complete manual testing portfolio for the iBrokerage 360 Agent CRM page: requirement analysis notes (Requirement,Assumptions, and Questions),
 scenarios, test cases, bug reports,an RTM and a summary report.
